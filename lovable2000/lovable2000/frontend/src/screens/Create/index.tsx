@@ -1,13 +1,4 @@
-import {
-  ComputerIcon,
-  ExternalLink,
-  Heart,
-  Loader2,
-  PhoneIcon,
-  Play,
-  RotateCcw,
-  TabletIcon,
-} from "lucide-react";
+import { Computer as ComputerIcon, ExternalLink, Heart, Loader as Loader2, Phone as PhoneIcon, Play, RotateCcw, Tablet as TabletIcon } from "lucide-react";
 import { MessageType, Sender } from "../../types/messages";
 import { useCallback, useEffect, useRef, useState } from "react";
 
