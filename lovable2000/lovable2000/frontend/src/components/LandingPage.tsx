@@ -29,7 +29,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             <FeatureDescription>Transform ideas into reality in seconds with advanced AI</FeatureDescription>
           </Feature>
           <Feature>
-            <FeatureIcon>�</FeatureIcon>
+            <FeatureIcon>🎯</FeatureIcon>
             <FeatureTitle>Precision Design</FeatureTitle>
             <FeatureDescription>Pixel-perfect layouts with sophisticated design intelligence</FeatureDescription>
           </Feature>

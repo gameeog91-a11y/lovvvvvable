@@ -480,7 +480,7 @@ const Create = () => {
       hasConnectedRef.current = true;
       connect();
     }
-  }, [isConnected, sessionId]); // Removed 'connect' from dependencies to prevent reconnection loops
+  }, [isConnected, sessionId, connect]);
 
   // Clear processed message IDs when connection is lost
   useEffect(() => {
